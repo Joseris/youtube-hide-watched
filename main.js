@@ -224,7 +224,7 @@ html[dark] .YT-HWV-BUTTON {
 
     var run = debounce(function () {
         if (__DEV__) console.log('[YT-HWV] Running check for watched videos');
-        removeClassFromWatchedRows();
+        //removeClassFromWatchedRows();
         addClassToWatchedRows();
         addButton();
     }, 250);
